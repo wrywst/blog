@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Wry's blog 
+title: Wry's Blog 
 subtitle: ''
 description: ''
 keywords:
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://wrywst.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,3 +105,13 @@ deploy:
   type: git
   repo: https://github.com/wrywst/wrywst.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  template: 
+
+aplayer:
+  meting: true
+  asset_inject: false
